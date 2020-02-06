@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: podinfo
-        image: hazzindu/podinfo:dev-7hrwylac
+        image: hazzindu/podinfo:1.0
         ports:
         - containerPort: 3000
