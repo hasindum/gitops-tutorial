@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: podinfo
   annotations:
-    flux.weave.works/automated: "false"
+    flux.weave.works/automated: "true"
     flux.weave.works/tag.podinfo: semver:~1.0
 spec:
   replicas: 2
