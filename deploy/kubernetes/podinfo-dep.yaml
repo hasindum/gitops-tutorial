@@ -5,7 +5,7 @@ metadata:
   name: podinfo
   annotations:
     flux.weave.works/automated: "true"
-    flux.weave.works/tag.chart-image: semver:~1.0 
+    flux.weave.works/tag.podinfo: semver:~1.0 
 spec:
   replicas: 2
   template:
